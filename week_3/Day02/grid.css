@@ -1,0 +1,42 @@
+
+html{
+    font-size: 80px;
+
+}
+body{
+    margin-bottom: 50%;
+    width: 50%;
+    top:40%;
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    display: grid;
+    grid-template-areas: 
+    "head head"
+    "nav footer"
+    "nav main";
+                
+                    
+}   
+ header {
+    grid-area: head;
+    background-color:yellowgreen;
+
+
+}
+ nav{
+
+grid-area:nav;
+background-color: rgb(255, 127, 127);
+
+ }
+  main {
+
+    grid-area: main;
+    background-color:brown;}
+
+ footer {
+
+    grid-area: footer;
+    background-color: green;
+ }

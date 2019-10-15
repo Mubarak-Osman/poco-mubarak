@@ -1,0 +1,16 @@
+
+
+#second {
+    display: none;
+    margin: 5px 0 
+  }
+  
+  #second.show {
+    display: block;
+  }
+  
+  .jasmine_html-reporter{
+    margin-top: 15px;
+  }
+  
+  

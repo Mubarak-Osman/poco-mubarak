@@ -1,0 +1,25 @@
+main{
+    column-width: 250px;
+    column-gap: 3em;
+    column-rule:1px solid gray ;
+}
+ul{
+    break-inside: avoid;
+}
+
+section{
+    background:darkslateblue;
+    border: 2px solid gray;
+    color: white;
+    flex-grow: 1;
+    margin: 1em;
+    padding: 5em;
+    text-align: center;
+}
+section:last-child{
+flex-grow: 0;
+flex-shrink: 0;
+flex-basis: 250px;
+/* shorthand*/
+flex: 0 1 250px;
+}

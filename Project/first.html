@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="first.css">
+     
+   
 
-    <title>  Contact platform    </title>
+    <title>  Kontakt Formular  </title>
 </head>
 
 <body>
+<video autoplay muted loop>
+    <source src="nature.mp4" type="nature/mp4">
+    
+</video>
 
-
-    <p>Kontakt Formular </p>
+    <h1> Kontakt Formular </h1>
 
         <label for="f5Anrede">Anrede</label> <br>
         <select id="f5Anrede" name="f5[Anrede]">
@@ -36,9 +41,9 @@
 <input type="date" name="f5date" id="f5date" required>
 <br> <br>
 
-<label for="f5Countries">Countries
+<label for="f5Land">Land
 </label> <br>
-<select  id="f5Countries" name="f5[Countries]" data-list=""> 
+<select  id="f5Land" name="f5[Land]" data-list=""> 
     <option value="Sudan">Sudan</option>
     <option value="Eritrea">Eritrea</option>
 <option value="Libya">Libya</option>
@@ -56,7 +61,7 @@
 </select>
 <br> <br>
 
-<label for="f5City">City</label>
+<label for="f5City">Stadt</label>
 <br>
 <select name="City" id="f5City">
 <option value="Zurich">Zurich</option>
@@ -86,15 +91,19 @@
 <br> <br> 
 <label for="f5tel">Tel</label> <br>
 <input type="tel" name="f5tel" id="f5tel" required> <br> <br> 
-<label for="f5Search">Search</label> <br>
-<select id="f5search" name="f5[Search]">
+<label for="f5Suche">Suche</label> <br>
+<select id="f5Suche" name="f5[Suche]">
 <option value="-"></option>
 <option value="Html">Html</option>
 <option value="Css">Css</option>
 <option value="JavaScript">JavaScript</option>
 </select>
 <br> <br>
-<input type="Submit" value="Submit">
+<label for="subject">Nachricht</label> <br>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+<br>
+<br>
+<input type="Submit" value="verschicken">
 </form>
 
 <a href="index2.html">back</a>

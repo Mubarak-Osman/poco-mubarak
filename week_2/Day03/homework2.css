@@ -1,0 +1,39 @@
+html {
+    background-color: black;
+    font-size: 18px;
+    box-sizing:border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+nav{
+    height:8rem;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    right: 25%;
+}
+ul{
+    display: inline-block;
+}
+li{
+    display: inline-block;
+}
+a{
+    margin:2rem;
+    color: gray;
+    text-decoration: none;
+
+}
+a:hover{
+    color: white;
+
+}
+.active{
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+
+    color: red;
+}

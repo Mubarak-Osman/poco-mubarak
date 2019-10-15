@@ -1,0 +1,19 @@
+html{
+    background-color: black;
+}
+head{
+    
+
+}
+
+body{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color: white;
+    height: 100%;
+
+}
+img{
+    width: 100%;
+    
+}
