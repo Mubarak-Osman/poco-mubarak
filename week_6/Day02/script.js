@@ -1,4 +1,4 @@
-
+/* 
 var source = document.getElementById("location");
 var target = document.getElementById("second");
 var triggerValue = "loc5";
@@ -14,4 +14,10 @@ function toggleShowOnSelectedValue(evt) {
   }
 };
 
-source.addEventListener("change", toggleShowOnSelectedValue, false);
+source.addEventListener("change", toggleShowOnSelectedValue, false); */
+
+var fruits = ["Banana", "Orange", "Apple"];
+let last = fruits[fruits.length-1];
+console.log(last, fruits);
+fruits.push("Kiwi");
+console.log(fruits);
